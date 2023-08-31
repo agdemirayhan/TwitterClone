@@ -1,0 +1,64 @@
+// COLOR VARIABLES
+$color-primary: #1da1f2;
+$color-primary-hover: #1b8fd8;
+$color-secondary: #dcecf7;
+$color-black: #14171a;
+$color-gray-dark: #657786;
+$color-gray-light: #aab8c2;
+$color-gray-light-2: #e1e8ed;
+$color-gray-light-3: #f7f7f7;
+$color-green-light: #3ab33a;
+$color-red-light: rgb(240, 69, 69);
+
+// FONT VARIABLES
+$font-primary: "Roboto", sans-serif;
+$font-secondary: "Roboto Condensed", sans-serif;
+
+$border-primary: 1px solid $color-gray-light-3;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns:
+    1fr 25rem 55rem minmax(min-content, 35rem)
+    1fr;
+  // padding: 0 8vw;
+}
+
+.nav-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  grid-column: 2/3;
+}
+
+.home {
+  grid-column: 3/4;
+  // width: 40vw;
+  border-left: $border-primary;
+  border-right: $border-primary;
+}
+
+.sidebar {
+  grid-column: 4/5;
+  // width: 25vw;
+}

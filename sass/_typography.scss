@@ -1,0 +1,120 @@
+.btn {
+  background-color: $color-primary;
+  width: 80%;
+
+  border: none;
+  border-radius: 200px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &,
+  & > a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &--big {
+    // padding: 1.3rem 4rem;
+    // text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  &--small {
+    padding: 0.7rem 3rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  &--small.black {
+    height: 3rem;
+    display: inline-block;
+    background-color: $color-black;
+    padding: 0rem 1.5rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  &:hover {
+    background-color: $color-primary-hover;
+  }
+}
+
+.icon {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.icon-tweet {
+  width: 2rem;
+  height: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: $color-primary;
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+
+  &::before {
+    content: "";
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    opacity: 0;
+    display: hidden;
+    transition: opacity 0.1s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &:hover::before {
+    display: block;
+    opacity: 1;
+    z-index: -2;
+  }
+
+  &.green::before {
+    background-color: rgba($color-green-light, 0.1);
+  }
+
+  &.green:hover {
+    color: $color-green-light;
+  }
+
+  &.red::before {
+    background-color: rgba($color-red-light, 0.1);
+  }
+  &.red:hover {
+    color: $color-red-light;
+  }
+
+  &.blue::before {
+    background-color: rgba($color-primary-hover, 0.1);
+  }
+  &.blue:hover {
+    color: $color-primary-hover;
+  }
+}
+
+.icon-tweet.gray {
+  color: $color-gray-dark;
+  z-index: 3;
+}
+
+.profile-img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+.nav__profile-img {
+  margin-right: 0;
+}

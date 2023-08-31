@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Twitter</title>
+  </head>
+  <!-- <link
+    rel="stylesheet"
+    href="https://i.icomoon.io/public/temp/f7a3290c58/Twitter/style-svg.css"
+  /> -->
+  <!-- <script
+    defer
+    src="https://i.icomoon.io/public/temp/f7a3290c58/Twitter/svgxuse.js"
+  ></script> -->
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <body class="container">
+    <div class="nav-container">
+      <div class="navigation">
+        <div class="nav__logo">
+          <img src="img/twitter.png" alt="twitter-logo" />
+        </div>
+        <ul class="nav">
+          <li class="nav__item">
+            <i class="ph-house"></i>
+            <a href="#" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <i class="ph-hash"></i>
+            <a href="#" class="nav__link">Explore</a>
+          </li>
+          <li class="nav__item">
+            <i class="ph-bell"></i>
+            <a href="#" class="nav__link">Notifications</a>
+          </li>
+          <li class="nav__item">
+            <i class="ph-envelope"></i>
+            <a href="#" class="nav__link">Messages</a>
+          </li>
+          <li class="nav__item">
+            <i class="ph-bookmark-simple"></i>
+            <a href="#" class="nav__link">Bookmarks</a>
+          </li>
+          <li class="nav__item">
+            <i class="ph-clipboard-text"></i>
+            <a href="#" class="nav__link">Lists</a>
+          </li>
+          <li class="nav__item">
+            <i class="ph-user"></i>
+            <a href="#" class="nav__link">Profile</a>
+          </li>
+          <li class="nav__item">
+            <i class="ph-dots-three-circle"></i>
+            <a href="#" class="nav__link">More</a>
+          </li>
+        </ul>
+        <div class="btn btn--big">
+          <a href="#" class="">Tweet</a>
+        </div>
+        <div class="nav__profile">
+          <img
+            class="nav__profile-img profile-img"
+            src="img/profile-1.jpg"
+            alt="twitter profile"
+          />
+          <div class="nav__profile-user">
+            <p class="nav__profile-name">Ayhan Agdemir</p>
+            <p class="nav__profile-username">@AyhanAgdemir</p>
+          </div>
+          <div class="nav__profile-icon icon">
+            <i class="ph-dots-three"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home">
+      <div class="home__newtweet">
+        <h3 class="home__newtweet-title">Home</h3>
+        <div class="home__newtweet-icon-top">
+          <i class="icon ph-sparkle"></i>
+        </div>
+        <img
+          class="profile-img"
+          src="img/profile-1.jpg"
+          alt="twitter profile"
+        />
+        <input
+          type="text"
+          class="home__newtweet-input"
+          placeholder="What's happening?"
+        />
+
+        <div class="home__newtweet-bottom">
+          <div class="icon-tweet blue">
+            <i class="ph-image-square"></i>
+          </div>
+          <div class="icon-tweet blue">
+            <i class="ph-gif"></i>
+          </div>
+          <div class="icon-tweet blue">
+            <i class="ph-list-numbers"></i>
+          </div>
+          <div class="icon-tweet blue">
+            <i class="ph-smiley"></i>
+          </div>
+          <div class="icon-tweet blue">
+            <i class="ph-calendar-plus"></i>
+          </div>
+          <div class="icon-tweet blue">
+            <i class="ph-map-pin"></i>
+          </div>
+        </div>
+        <a href="#" class="btn btn--small">Tweet</a>
+      </div>
+      <div class="home__show-tweet"><span>Show 145 Tweets</span></div>
+      <div class="home__tweet">
+        <div class="icon-tweet gray home__tweet__status no-hover">
+          <i class="ph-repeat"></i>
+        </div>
+        <h4 class="home__tweet__desc">Kemal Kalkandaroglu follows</h4>
+        <div class="home__tweet__img">
+          <img
+            class="profile-img"
+            src="https://randomuser.me/portraits/women/47.jpg"
+            alt="twitter user"
+          />
+        </div>
+        <div class="home__tweet__container">
+          <h3 class="home__tweet__user">Nagehan Siva</h3>
+          <span class="home__tweet__username">@sivanagehan1453</span>
+          <div class="home__tweet__icon icon">
+            <i class="ph-dots-three"></i>
+          </div>
+          <p class="home__tweet__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+            voluptatem error consectetur similique eius, tenetur iste
+            praesentium ne que provident accusamus exercitationem nemo.
+            Provident nostrum unde, voluptatum perspiciatis dolores veniam
+            error.
+          </p>
+        </div>
+
+        <div class="home__tweet__buttons">
+          <div class="icon-tweet gray blue">
+            <i class="ph-chat-circle"></i>
+          </div>
+          <div class="icon-tweet gray green">
+            <i class="ph-repeat"></i>
+          </div>
+          <div class="icon-tweet gray red">
+            <i class="ph-heart"></i>
+          </div>
+
+          <div class="icon-tweet gray blue">
+            <i class="ph-upload-simple"></i>
+          </div>
+        </div>
+      </div>
+      <div class="home__tweet">
+        <div class="icon-tweet gray home__tweet__status no-hover">
+          <i class="ph-repeat"></i>
+        </div>
+        <h4 class="home__tweet__desc">Kemal Kalkandaroglu follows</h4>
+        <div class="home__tweet__img">
+          <img
+            class="profile-img"
+            src="https://randomuser.me/portraits/women/47.jpg"
+            alt="twitter user"
+          />
+        </div>
+        <div class="home__tweet__container">
+          <h3 class="home__tweet__user">Nagehan Siva</h3>
+          <span class="home__tweet__username">@sivanagehan1453</span>
+          <div class="home__tweet__icon icon">
+            <i class="ph-dots-three"></i>
+          </div>
+          <p class="home__tweet__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+            voluptatem error consectetur similique eius, tenetur iste
+            praesentium ne que provident accusamus exercitationem nemo.
+            Provident nostrum unde, voluptatum perspiciatis dolores veniam
+            error.
+          </p>
+        </div>
+
+        <div class="home__tweet__buttons">
+          <div class="icon-tweet gray blue">
+            <i class="ph-chat-circle"></i>
+          </div>
+          <div class="icon-tweet gray green">
+            <i class="ph-repeat"></i>
+          </div>
+          <div class="icon-tweet gray red">
+            <i class="ph-heart"></i>
+          </div>
+
+          <div class="icon-tweet gray blue">
+            <i class="ph-upload-simple"></i>
+          </div>
+        </div>
+      </div>
+      <div class="home__tweet">
+        <div class="icon-tweet gray home__tweet__status no-hover">
+          <i class="ph-repeat"></i>
+        </div>
+        <h4 class="home__tweet__desc">Kemal Kalkandaroglu follows</h4>
+        <div class="home__tweet__img">
+          <img
+            class="profile-img"
+            src="https://randomuser.me/portraits/women/47.jpg"
+            alt="twitter user"
+          />
+        </div>
+        <div class="home__tweet__container">
+          <h3 class="home__tweet__user">Nagehan Siva</h3>
+          <span class="home__tweet__username">@sivanagehan1453</span>
+          <div class="home__tweet__icon icon">
+            <i class="ph-dots-three"></i>
+          </div>
+          <p class="home__tweet__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+            voluptatem error consectetur similique eius, tenetur iste
+            praesentium ne que provident accusamus exercitationem nemo.
+            Provident nostrum unde, voluptatum perspiciatis dolores veniam
+            error.
+          </p>
+        </div>
+
+        <div class="home__tweet__buttons">
+          <div class="icon-tweet gray blue">
+            <i class="ph-chat-circle"></i>
+          </div>
+          <div class="icon-tweet gray green">
+            <i class="ph-repeat"></i>
+          </div>
+          <div class="icon-tweet gray red">
+            <i class="ph-heart"></i>
+          </div>
+
+          <div class="icon-tweet gray blue">
+            <i class="ph-upload-simple"></i>
+          </div>
+        </div>
+      </div>
+      <div class="home__tweet">
+        <div class="icon-tweet gray home__tweet__status no-hover">
+          <i class="ph-repeat"></i>
+        </div>
+        <h4 class="home__tweet__desc">Kemal Kalkandaroglu follows</h4>
+        <div class="home__tweet__img">
+          <img
+            class="profile-img"
+            src="https://randomuser.me/portraits/women/47.jpg"
+            alt="twitter user"
+          />
+        </div>
+        <div class="home__tweet__container">
+          <h3 class="home__tweet__user">Nagehan Siva</h3>
+          <span class="home__tweet__username">@sivanagehan1453</span>
+          <div class="home__tweet__icon icon">
+            <i class="ph-dots-three"></i>
+          </div>
+          <p class="home__tweet__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+            voluptatem error consectetur similique eius, tenetur iste
+            praesentium ne que provident accusamus exercitationem nemo.
+            Provident nostrum unde, voluptatum perspiciatis dolores veniam
+            error.
+          </p>
+        </div>
+
+        <div class="home__tweet__buttons">
+          <div class="icon-tweet gray blue">
+            <i class="ph-chat-circle"></i>
+          </div>
+          <div class="icon-tweet gray green">
+            <i class="ph-repeat"></i>
+          </div>
+          <div class="icon-tweet gray red">
+            <i class="ph-heart"></i>
+          </div>
+
+          <div class="icon-tweet gray blue">
+            <i class="ph-upload-simple"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <form action="#" class="search">
+        <button class="search__button">
+          <i class="ph-magnifying-glass search__button-icon"></i>
+        </button>
+        <input type="text" class="search__input" />
+      </form>
+      <div class="trends">
+        <h2 class="trends__title">Trends for you</h2>
+        <ul class="trends__container">
+          <li class="trends__item">
+            <div>
+              <p class="trends__topic">Politics - Trending</p>
+              <p class="trends__thread">Ayhan Agdemir</p>
+              <p class="trends__count">142K Tweets</p>
+            </div>
+            <div class="nav__profile-icon icon">
+              <i class="ph-dots-three"></i>
+            </div>
+          </li>
+          <li class="trends__item">
+            <div>
+              <p class="trends__topic">Politics - Trending</p>
+              <p class="trends__thread">Ayhan Agdemir</p>
+              <p class="trends__count">142K Tweets</p>
+            </div>
+            <div class="nav__profile-icon icon">
+              <i class="ph-dots-three"></i>
+            </div>
+          </li>
+          <li class="trends__item">
+            <div>
+              <p class="trends__topic">Politics - Trending</p>
+              <p class="trends__thread">Ayhan Agdemir</p>
+              <p class="trends__count">142K Tweets</p>
+            </div>
+            <div class="nav__profile-icon icon">
+              <i class="ph-dots-three"></i>
+            </div>
+          </li>
+          <li class="trends__item">
+            <div>
+              <p class="trends__topic">Politics - Trending</p>
+              <p class="trends__thread">Ayhan Agdemir</p>
+              <p class="trends__count">142K Tweets</p>
+            </div>
+            <div class="nav__profile-icon icon">
+              <i class="ph-dots-three"></i>
+            </div>
+          </li>
+          <li class="trends__item">
+            <div>
+              <p class="trends__topic">Politics - Trending</p>
+              <p class="trends__thread">Ayhan Agdemir</p>
+              <p class="trends__count">142K Tweets</p>
+            </div>
+            <div class="nav__profile-icon icon">
+              <i class="ph-dots-three"></i>
+            </div>
+          </li>
+          <li class="trends__item">
+            <div>
+              <p class="trends__topic">Politics - Trending</p>
+              <p class="trends__thread">Ayhan Agdemir</p>
+              <p class="trends__count">142K Tweets</p>
+            </div>
+            <div class="nav__profile-icon icon">
+              <i class="ph-dots-three"></i>
+            </div>
+          </li>
+          <li class="trends__item">
+            <div>
+              <p class="trends__topic">Politics - Trending</p>
+              <p class="trends__thread">Ayhan Agdemir</p>
+              <p class="trends__count">142K Tweets</p>
+            </div>
+            <div class="nav__profile-icon icon">
+              <i class="ph-dots-three"></i>
+            </div>
+          </li>
+        </ul>
+        <div class="trends__show-more">
+          <span>Show more</span>
+        </div>
+      </div>
+      <div class="wtf">
+        <h2 class="wtf__title">Who to follow</h2>
+        <ul class="wtf__container">
+          <li class="wtf__item">
+            <div class="nav__profile">
+              <img
+                class="nav__profile-img profile-img"
+                src="img/profile-1.jpg"
+                alt="twitter profile"
+              />
+              <div class="nav__profile-user">
+                <p class="nav__profile-name">Ayhan Agdemir</p>
+                <p class="nav__profile-username">@AyhanAgdemir</p>
+              </div>
+              <a href="#" class="btn btn--small black"><span>Follow</span></a>
+            </div>
+          </li>
+          <li class="wtf__item">
+            <div class="nav__profile">
+              <img
+                class="nav__profile-img profile-img"
+                src="img/profile-1.jpg"
+                alt="twitter profile"
+              />
+              <div class="nav__profile-user">
+                <p class="nav__profile-name">Ayhan Agdemir</p>
+                <p class="nav__profile-username">@AyhanAgdemir</p>
+              </div>
+              <a href="#" class="btn btn--small black"><span>Follow</span></a>
+            </div>
+          </li>
+          <li class="wtf__item">
+            <div class="nav__profile">
+              <img
+                class="nav__profile-img profile-img"
+                src="img/profile-1.jpg"
+                alt="twitter profile"
+              />
+              <div class="nav__profile-user">
+                <p class="nav__profile-name">Ayhan Agdemir</p>
+                <p class="nav__profile-username">@AyhanAgdemir</p>
+              </div>
+              <a href="#" class="btn btn--small black"><span>Follow</span></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
